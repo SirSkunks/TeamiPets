@@ -13,8 +13,12 @@
 		2A59CB3B20D031640092D2BB /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CB3A20D031640092D2BB /* GameScene.swift */; };
 		2A59CB3D20D031650092D2BB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A59CB3C20D031650092D2BB /* GameViewController.swift */; };
 		2A59CB4020D031660092D2BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A59CB3E20D031660092D2BB /* Main.storyboard */; };
-		2A59CB4220D031EA0092D2BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A59CB4120D031EA0092D2BB /* Assets.xcassets */; };
 		2A59CB4520D031EA0092D2BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A59CB4320D031EA0092D2BB /* LaunchScreen.storyboard */; };
+		2A80FA8220DD7A1D006909CB /* MessageNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A80FA8120DD7A1C006909CB /* MessageNode.swift */; };
+		2AA1DE6E20D1E215007E2C5B /* TeamiStageOne.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2AA1DE6D20D1E215007E2C5B /* TeamiStageOne.sks */; };
+		2AB11D5520D96D43001275E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB11D5420D96D42001275E5 /* Assets.xcassets */; };
+		2ADCD31A20DC1EE5003C0FDF /* StatusBar.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2ADCD31920DC1EE5003C0FDF /* StatusBar.sks */; };
+		2ADCD31C20DC1FB9003C0FDF /* BarNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ADCD31B20DC1FB9003C0FDF /* BarNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +29,13 @@
 		2A59CB3A20D031640092D2BB /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2A59CB3C20D031650092D2BB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		2A59CB3F20D031660092D2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2A59CB4120D031EA0092D2BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A59CB4420D031EA0092D2BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A59CB4620D031EA0092D2BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A80FA8120DD7A1C006909CB /* MessageNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageNode.swift; sourceTree = "<group>"; };
+		2AA1DE6D20D1E215007E2C5B /* TeamiStageOne.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = TeamiStageOne.sks; sourceTree = "<group>"; };
+		2AB11D5420D96D42001275E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2ADCD31920DC1EE5003C0FDF /* StatusBar.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StatusBar.sks; sourceTree = "<group>"; };
+		2ADCD31B20DC1FB9003C0FDF /* BarNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +52,7 @@
 		2A59CB2820D0315D0092D2BB = {
 			isa = PBXGroup;
 			children = (
+				2AA1DE6C20D1E1E7007E2C5B /* Scenes */,
 				2A59CB3320D031600092D2BB /* TeamiPets */,
 				2A59CB3220D031600092D2BB /* Products */,
 			);
@@ -61,16 +70,27 @@
 			isa = PBXGroup;
 			children = (
 				2A59CB3420D031610092D2BB /* AppDelegate.swift */,
-				2A59CB3620D031630092D2BB /* GameScene.sks */,
 				2A59CB3820D031630092D2BB /* Actions.sks */,
+				2ADCD31B20DC1FB9003C0FDF /* BarNode.swift */,
 				2A59CB3A20D031640092D2BB /* GameScene.swift */,
 				2A59CB3C20D031650092D2BB /* GameViewController.swift */,
 				2A59CB3E20D031660092D2BB /* Main.storyboard */,
-				2A59CB4120D031EA0092D2BB /* Assets.xcassets */,
+				2A80FA8120DD7A1C006909CB /* MessageNode.swift */,
 				2A59CB4320D031EA0092D2BB /* LaunchScreen.storyboard */,
 				2A59CB4620D031EA0092D2BB /* Info.plist */,
+				2AB11D5420D96D42001275E5 /* Assets.xcassets */,
 			);
 			path = TeamiPets;
+			sourceTree = "<group>";
+		};
+		2AA1DE6C20D1E1E7007E2C5B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				2AA1DE6D20D1E215007E2C5B /* TeamiStageOne.sks */,
+				2A59CB3620D031630092D2BB /* GameScene.sks */,
+				2ADCD31920DC1EE5003C0FDF /* StatusBar.sks */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,10 +151,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AA1DE6E20D1E215007E2C5B /* TeamiStageOne.sks in Resources */,
 				2A59CB4020D031660092D2BB /* Main.storyboard in Resources */,
 				2A59CB3720D031630092D2BB /* GameScene.sks in Resources */,
-				2A59CB4220D031EA0092D2BB /* Assets.xcassets in Resources */,
 				2A59CB4520D031EA0092D2BB /* LaunchScreen.storyboard in Resources */,
+				2ADCD31A20DC1EE5003C0FDF /* StatusBar.sks in Resources */,
+				2AB11D5520D96D43001275E5 /* Assets.xcassets in Resources */,
 				2A59CB3920D031630092D2BB /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,6 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A59CB3B20D031640092D2BB /* GameScene.swift in Sources */,
+				2A80FA8220DD7A1D006909CB /* MessageNode.swift in Sources */,
+				2ADCD31C20DC1FB9003C0FDF /* BarNode.swift in Sources */,
 				2A59CB3D20D031650092D2BB /* GameViewController.swift in Sources */,
 				2A59CB3520D031610092D2BB /* AppDelegate.swift in Sources */,
 			);
@@ -298,7 +322,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jdankerl.TeamiPets;
+				PRODUCT_BUNDLE_IDENTIFIER = teammigatchi.TeamiPets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -315,7 +339,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jdankerl.TeamiPets;
+				PRODUCT_BUNDLE_IDENTIFIER = teammigatchi.TeamiPets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
